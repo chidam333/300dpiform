@@ -23,7 +23,7 @@
 			'/video2':Video2,
 			'/video3':Video3,
 			'/video4':Video4,
-			'/video5':Video5,
+			// '/video5':Video5,
 			'/video6':Video6,
 			'/video7':Video7,
 			'/video8':Video8}
