@@ -20,7 +20,7 @@
           </li>
           <li class="nav-item dropdown" >
             <a class="nav-link dropdown-toggle" style="color: #686822;" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                &nbsp;&nbsp;&nbsp;Dropdown link&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;Inspiration&nbsp;&nbsp;&nbsp;
             </a>
             <ul class="dropdown-menu"  aria-labelledby="navbarDropdownMenuLink">
               <li><a class="dropdown-item" href="#/inspri">Our Inspiration</a></li>

@@ -1,6 +1,5 @@
 <script>
     import Router from 'svelte-hash-router';
-    let idl=['a7ylve6TFo8','qRao8xS_nyM','z-Ng5ZvrDm4','dtHOu-aPev4','AP07mio4POc','AdNJ3fydeao','dQw4w9WgXcQ','-tT0O0qybGg']
 	let cats = [
 		{ id: 0, name: 'What is solar punk',desc:"This video gives an introduction to what solarpunk is and why is it a future we all can hope for" },
 		{ id: 1, name: 'The starter !!' ,desc:"I started thinking about solarpunk thanks to this balajis talking about it in his twitter here is a video to get more of his ideas" },
@@ -75,34 +74,5 @@
         justify-content: center;
         align-content: center;
         margin: 0% 5%;
-    }
-    .video-player{
-        display: grid;
-        justify-content: center;
-        align-content: center;
-    }
-    .video-it{
-        width: 960px;
-        height: 540px;
-        margin-top: 5%;
-        margin-bottom: 3%;
-    }
-    @media only screen and (max-width: 1000px) {
-        .video-it{
-            width:800px;
-            height: 450px;
-        }
-    }
-    @media only screen and (max-width: 800px) {
-        .video-it{
-            width:400px;
-            height: 225px;
-        }
-    }
-    @media only screen and (max-width: 450px) {
-        .video-it{
-            width:300px;
-            height: 168.75px;
-        }
     }
 </style>
