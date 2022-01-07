@@ -1,5 +1,5 @@
 <script>
-     import {Link} from "svelte-navigator";
+	import Router from 'svelte-hash-router'
 </script>
 <nav class="navbar navbar-expand-lg navbar-light">
     <div class="container-fluid">
@@ -10,20 +10,20 @@
       <div class="collapse navbar-collapse" id="navbarNavDropdown">
         <ul class="navbar-nav ms-auto">
           <li class="nav-item">
-            <Link class="nav-link active" aria-current="page" style="color: #686822;" to="/">&nbsp;&nbsp;&nbsp;Home&nbsp;&nbsp;&nbsp;</Link>
+            <a class="nav-link active" aria-current="page" style="color: #686822;" href="#/">&nbsp;&nbsp;&nbsp;Home&nbsp;&nbsp;&nbsp;</a>
           </li>
           <li class="nav-item">
-            <Link class="nav-link" style="color: #686822;" to="ftrs">&nbsp;&nbsp;&nbsp;Features&nbsp;&nbsp;&nbsp;</Link>
+            <a class="nav-link" style="color: #686822;" href="#/ftrs">&nbsp;&nbsp;&nbsp;Features&nbsp;&nbsp;&nbsp;</a>
           </li>
           <li class="nav-item">
-            <Link class="nav-link" style="color: #686822;" to="price">&nbsp;&nbsp;&nbsp;Pricing&nbsp;&nbsp;&nbsp;</Link>
+            <a class="nav-link" style="color: #686822;" href="#/price">&nbsp;&nbsp;&nbsp;Pricing&nbsp;&nbsp;&nbsp;</a>
           </li>
           <li class="nav-item dropdown" >
-            <Link class="nav-link dropdown-toggle" style="color: #686822;" to="inspri" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            <a class="nav-link dropdown-toggle" style="color: #686822;" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                 &nbsp;&nbsp;&nbsp;Dropdown link&nbsp;&nbsp;&nbsp;
-            </Link>
+            </a>
             <ul class="dropdown-menu"  aria-labelledby="navbarDropdownMenuLink">
-              <li><Link class="dropdown-item" to="inspri">Our Inspiration</Link></li>
+              <li><a class="dropdown-item" href="#/inspri">Our Inspiration</a></li>
               <li><a class="dropdown-item" href="https://chidam.pages.dev" target="_blank">Web developer</a></li>
             </ul>
           </li>
@@ -31,6 +31,7 @@
       </div>
     </div>
   </nav>
+<Router/>
 <style>
 .navbar{
     background: rgb(134, 234, 241,0.5);

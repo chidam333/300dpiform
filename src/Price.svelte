@@ -3,7 +3,7 @@
     <img src="img/contact.jpg" class="img_real" alt="contact_image">
     <div class="img-overlay">
       <form action="https://formspree.io/f/xqknknek" method="post">
-        <div class="container-fluid">
+        <div class="container">
           <div class="row">
               <div class="content">
                 <h3> Get a Quote <img src="https://img.icons8.com/flat-round/48/000000/quote.png" alt="quote_icon"/></h3>
