@@ -10,7 +10,7 @@
 	import Video2 from "./Video2.svelte";
 	import Video3 from "./Video3.svelte";
 	import Video4 from "./Video4.svelte";
-	import Video5 from './Video5.svelte';
+	// import Video5 from './Video5.svelte';
 	import Video6 from "./Video6.svelte";
 	import Video7 from "./Video7.svelte";
 	import Video8 from "./Video8.svelte";
