@@ -1,7 +1,7 @@
 <script></script>
 <div class="container-fluid">
     <div class="video-player" id="video-player">
-        <iframe class="video-it" src="https://www.youtube.com/embed/dQw4w9WgXcQ?showinfo=0&rel=0&controls=0&disablekb=1" title="video on dm" frameborder="0" allowfullscreen></iframe>
+        <iframe class="video-it" src="http://www.youtube.com/embed/dQw4w9WgXcQ?showinfo=0&rel=0&controls=0&disablekb=1"  title="video on dm" frameborder="0" allowfullscreen></iframe>
     </div>
 </div> 
 <style>

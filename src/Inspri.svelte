@@ -5,7 +5,7 @@
 		{ id: 1, name: 'The starter !!' ,desc:"I started thinking about solarpunk thanks to this balajis talking about it in his twitter here is a video to get more of his ideas" },
 		{ id: 2, name: 'This looks amazing' ,desc:"This is a video which is very nice to watch just watch it" },
 		{ id: 3, name: 'Cyberpunk is scary' ,desc:"Cyberpunk might look like an cool place to live in when we see the renders but is it really good or is it scary ?" },
-		{ id: 4, name: 'Dharmicism ? whats that' ,desc:"I found this video intresting and hence sharing this with you all ? 🤨 What do you think" },
+		// { id: 4, name: 'Dharmicism ? whats that' ,desc:"I found this video intresting and hence sharing this with you all ? 🤨 What do you think" },
 		{ id: 5, name: 'Why Svelte ?? Its best ??' ,desc:"This is the video which convinced me to ditch all popular frameworks to something like svelte" },
         { id: 6, name: "You know Easter egg?", desc:"This is a very amazing vide something which i have seen multiple times do take a look"},
         { id: 7, name: "Sridhar vembu's podcast", desc:"It was a very thought provocking session something worth listening atleast once"}
