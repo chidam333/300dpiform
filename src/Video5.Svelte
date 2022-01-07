@@ -1,7 +1,7 @@
 <script></script>
 <div class="container-fluid">
     <div class="video-player" id="video-player">
-        <iframe class="video-it" src="https://www.youtube.com/embed/AP07mio4POc" title="video on dm" frameborder="0" allowfullscreen></iframe>
+        <iframe class="video-it" src="https://www.youtube.com/embed/AP07mio4POc" title="video on dharmicsm" frameborder="0" allowfullscreen></iframe>
     </div>
 </div> 
 <style>
