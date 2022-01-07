@@ -1,5 +1,4 @@
 <script>
-    import {Link} from "svelte-navigator";
     import Router from 'svelte-hash-router';
 </script>
 <div class="img" id="lolimg">

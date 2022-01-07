@@ -1,4 +1,6 @@
-<script></script>
+<script>
+      import Router from 'svelte-hash-router';
+</script>
 <section class="full">
 <h1 class="specs">SPECIFICATION</h1>
 <br>
@@ -18,8 +20,9 @@
                <p>Live Energy Generation</p>
                <p>For city traffic </p>
                <p>The nokia for CARS</p>
-               <a role="button" href="#" class="btn-sm btn-get">Get it now</a>
-        </div>
+               <a role="button" href="#/price" class="btn-sm btn-get">Get it now</a>
+        <Router/>
+              </div>
       </div>
       <div class="carousel-item">
         <img src="img/spec2.jpg" class="d-block w-100" alt="spec2">
@@ -29,7 +32,8 @@
           <p>Grid Energy Used</p>
           <p>For recursive </p>
           <p>Exclusive for large buyers</p>
-          <a role="button" href="#" class="btn-sm btn-get">Get it now</a>
+          <a role="button" href="#/price" class="btn-sm btn-get">Get it now</a>
+        <Router/>
         </div>
       </div>
       <div class="carousel-item">
@@ -40,7 +44,8 @@
           <p>Electric packs used</p>
           <p>For autobans </p>
           <p>The highest level of customisation</p>
-          <a role="button" href="#" class="btn-sm btn-get">Get it now</a>
+          <a role="button" href="#/price" class="btn-sm btn-get">Get it now</a>
+        <Router/>
         </div>
       </div>
     </div>

@@ -1,4 +1,5 @@
 <script>
+    import Router from 'svelte-hash-router';
     let idl=['a7ylve6TFo8','qRao8xS_nyM','z-Ng5ZvrDm4','dtHOu-aPev4','AP07mio4POc','AdNJ3fydeao','dQw4w9WgXcQ','-tT0O0qybGg']
 	let cats = [
 		{ id: 0, name: 'What is solar punk',desc:"This video gives an introduction to what solarpunk is and why is it a future we all can hope for" },
@@ -17,25 +18,30 @@
     }
 </script>
 
+<Router/>
+
 <h1 class="inspiro">Our inspiration</h1>
     <section id="whole-section">
     <div class="grid-list">
 	{#each cats as { id, name,desc }}
-    <a href="#video-player" class="card card-list" on:click={urlboom(idl[id])}>
+    <a href="#/inspri/video{id+1}" class="card card-list">
         <h1>{name}</h1>
         <h5>{desc}</h5>
     </a>
+  
     <!-- <li><a target="_blank" href="https://www.youtube.com/watch?v={id}">
         {i + 1}: {name}{desc}
     </a></li> -->
 	{/each}
+
     </div>
 
-    <div class="container-fluid">
+
+    <!-- <div class="container-fluid">
         <div class="video-player" id="video-player">
             <iframe class="video-it" src="https://www.youtube.com/embed/{urlkaro}" title="video on dm" frameborder="0" allowfullscreen></iframe>
         </div>
-    </div>
+    </div> on:click={urlboom(idl[id])}>-->
     </section>
 <style>
     .inspiro{
