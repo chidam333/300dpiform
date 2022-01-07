@@ -1,29 +1,8 @@
-<script>
-  var form = document.getElementById("priceForm");
-  
-  async function handleSubmit(event) {
-    event.preventDefault();
-    var status = document.getElementById("priceFormStatus");
-    var data = new FormData(event.target);
-    fetch(event.target.action, {
-      method: form.method,
-      body: data,
-      headers: {
-          'Accept': 'application/json'
-      }
-    }).then(response => {
-      status.innerHTML = "<p class='alert alert-success'>Thanks for your submission! We'll reach out to you soon.</p>";
-      form.reset()
-    }).catch(error => {
-      status.innerHTML = "<p class='alert alert-danger'>Oops! There was a problem submitting your form.</p>"
-    });
-  }
-  form.addEventListener("submit", handleSubmit)
-</script>
+<script></script>
 <div class="imgtop">
     <img src="img/contact.jpg" class="img_real" alt="contact_image">
     <div class="img-overlay">
-      <form action="https://formspree.io/f/xqknknek" method="post" id="priceForm">
+      <form action="https://formspree.io/f/xqknknek" method="post">
         <div class="container">
           <div class="row">
               <div class="content">
@@ -39,7 +18,6 @@
                       </span>
                     </div>
                   </div>
-                  <div id="priceFormStatus"></div>
                 <br>
                 <hr style="color: white;">
               </div>
@@ -53,8 +31,6 @@
       </form>
     </div>
 </div>
-
-
 <style>
     .imgtop{
         position: relative;
@@ -138,7 +114,6 @@
     color: wheat;
 }
 .row .content .btn:focus{
-
     background-color: rgb(153, 106, 4);
     border: 3px solid black;
 }
