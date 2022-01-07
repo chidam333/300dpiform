@@ -1,12 +1,14 @@
 <script>
     import {Link} from "svelte-navigator";
+    import Router from 'svelte-hash-router';
 </script>
 <div class="img" id="lolimg">
     <img class="imgdude" src="img/bgimg.jpg" alt="solarpunkbgimg"/>
     <div class="img-overlay">
         <h1 class="img-title">CHETAN</h1>
         <p class="img-pa">a better car for solarpunk future</p>
-        <a class="attentionbtn" href="http://localhost:5000/price" role="button">Get pricing</a>
+        <a class="attentionbtn" href="#/price" role="button">Get pricing</a>
+        <Router/>
     </div>
 </div>
 <style>
