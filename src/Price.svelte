@@ -5,7 +5,7 @@
   let msg = ""
   let result = ""
   async function doPost () {
-		fetch('https://formspree.io/f/xqknknek', {
+		fetch('https://formspree.io/f/xvolgyjk', {
 			method: 'POST',
 			body: JSON.stringify({
 				name,
@@ -25,7 +25,7 @@
 <div class="imgtop">
     <img src="img/contact.jpg" class="img_real" alt="contact_image">
     <div class="img-overlay">
-      <form>
+      <form class="nav-prbl">
         <div class="container">
           <div class="row">
               <div class="content">
@@ -41,7 +41,7 @@
                       </span>
                     </div>
                   </div>
-                  <div class="alert alert-info" style="margin-top:3%; font-family:roboto;" role="alert">{result}</div>
+                  <div class="response">{result}</div>
                 <br>
                 <hr style="color: white;">
               </div>
@@ -58,6 +58,18 @@
 
 
 <style>
+    .nav-prbl{
+      margin-top:5%;
+    }
+    .response{
+      background: rgba(173, 255, 47,0.5);
+      font-family: "roboto";
+      border-radius: 17px;
+      text-transform: lowercase;
+      color: rgb(0, 29, 0);
+      text-align: center;
+      margin-top: 2% ;
+    }
     .imgtop{
         position: relative;
     }
