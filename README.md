@@ -4,19 +4,27 @@
 <img src="./public/img/fr1.jpg">
 <hr/>
 
-#### Technologies used
+## Technologies used
 <ul>
 <li>HTML</li>
 <li>CSS</li>
 <li>SVELTE (A Javascript framework)</li>
-<li>BOOTSTRAP</li></ul>P
+<li>BOOTSTRAP</li></ul>
 <hr/>
 
-#### Check how the responsiveness have been carfully crafted
+## Check how the responsiveness have been carfully crafted
+<br/>
 <p float="left">
-<img src="./public/img/fr2.jpg" width="100">
-<img src="./public/img/fr3.jpg" width="100">
-<img src="./public/img/fr4.jpg" width="100">
-<img src="./public/img/fr5.jpg" width="100">
-</p>
-![alt-text-1](./public/img/fr3.jpg "title-1") ![alt-text-2](./public/img/fr2.jpg "title-2")
+<img src="./public/img/fr2.jpg" width="600">
+<img src="./public/img/fr3.jpg" width="250">
+ </p>
+ <hr/>
+ 
+ ## Check how quote form is integrated
+<img src="./public/img/fr4.jpg"> 
+<img src="./public/img/fr5.jpg">
+<br/>
+<br/>
+<br/>
+
+# 🙏 Thank you for scrolling through 
