@@ -1,23 +1,47 @@
-<script></script>
+<script>
+
+  let name = ""
+  let _replyto = ""
+  let msg = ""
+  let result = ""
+  async function doPost () {
+		fetch('https://formspree.io/f/xqknknek', {
+			method: 'POST',
+			body: JSON.stringify({
+				name,
+				_replyto,
+        msg
+			}),
+      headers: {
+        'Accept': 'application/json'
+      }
+    }).then(response => {
+      result = "Thanks for your submission!";
+    }).catch(error => {
+      result = "There was an error!";
+    });
+  }
+</script>
 <div class="imgtop">
     <img src="img/contact.jpg" class="img_real" alt="contact_image">
     <div class="img-overlay">
-      <form action="https://formspree.io/f/xqknknek" method="post">
+      <form>
         <div class="container">
           <div class="row">
               <div class="content">
                 <h3> Get a Quote <img src="https://img.icons8.com/flat-round/48/000000/quote.png" alt="quote_icon"/></h3>
                   <div class="input">
                     <div class="input-group">
-                      <input type="name" class="form-control btn0" name="name" placeholder="Your name" >
-                      <input type="email" class="form-control btn1" name="_replyto" placeholder="Your email">
+                      <input type="name" class="form-control btn0" name="name" bind:value={name} placeholder="Your name" >
+                      <input type="email" class="form-control btn1" name="_replyto" bind:value={_replyto} placeholder="Your email">
                     <div class="input-group">
-                      <textarea id="btn2" name="msg" rows="2" cols="85" class="form-control" placeholder="Suggest your ideal car with modifications 🚀"></textarea>
+                      <textarea id="btn2" name="msg" rows="2" cols="85" class="form-control" bind:value={msg} placeholder="Suggest your ideal car with modifications 🚀"></textarea>
                       <span class="input-btn">
-                        <button class="btn text-center" type="submit" value="submit">SUBMIT</button>
+                        <button class="btn text-center" type="button" on:click={doPost}>SUBMIT</button>
                       </span>
                     </div>
                   </div>
+                  <div class="bg-dark text-white">{result}</div>
                 <br>
                 <hr style="color: white;">
               </div>
