@@ -1,24 +1,4 @@
-<script>
-    let videosIndex=[]
-    let videosUrl=[]
-    let videosTitle=[]
-    let videosDesc=[]
-    $: driveurl=''
-    $: vtitle=''
-    $: vdesc=''
-    let i=0;
-    function addVideo(e){
-        e.preventDefault();
-        videosUrl.push(`${driveurl}`);
-        videosUrl=videosUrl;
-        videosTitle.push(`${vtitle}`);
-        videosTitle=videosTitle;
-        videosDesc.push(`${vdesc}`);
-        videosDesc=videosDesc;
-        videosIndex.push(i);
-        i++;
-    }
-</script>
+
 {indexs}
 <div class="grid-video-list">
     {#each videosIndex as index}
