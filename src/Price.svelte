@@ -11,12 +11,15 @@
 				name,
 				_replyto,
         msg
-			})
-      }).then(response => {
-          result = "Thanks for your submission!";
-      }).catch(error => {
-          result = "There was an error!";
-      });
+			}),
+      headers: {
+        'Accept': 'application/json'
+      }
+    }).then(response => {
+      result = "Thanks for your submission!";
+    }).catch(error => {
+      result = "There was an error!";
+    });
   }
 </script>
 <div class="imgtop">
