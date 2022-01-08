@@ -16,7 +16,7 @@
         'Accept': 'application/json'
       }
     }).then(response => {
-      result = "Thanks for your submission!";
+      result = "Quote will be in your email !";
     }).catch(error => {
       result = "There was an error!";
     });
@@ -41,7 +41,7 @@
                       </span>
                     </div>
                   </div>
-                  <div class="bg-dark text-white">{result}</div>
+                  <div class="alert alert-info" style="margin-top:3%; font-family:roboto;" role="alert">{result}</div>
                 <br>
                 <hr style="color: white;">
               </div>
