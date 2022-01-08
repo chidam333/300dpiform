@@ -15,8 +15,8 @@
 ## Check how the responsiveness have been carfully crafted
 <br/>
 <p float="left">
-<img src="./public/img/fr2.jpg" width="600">
-<img src="./public/img/fr3.jpg" width="250">
+<img src="./public/img/fr2.jpg" width="400">
+<img src="./public/img/fr3.jpg" width="200">
  </p>
  <hr/>
  
