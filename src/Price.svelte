@@ -7,7 +7,7 @@
   async function doPost () {
     document.getElementById("submitBtn").classList.add("disabled")
     document.getElementById("submitBtn").innerHTML = "Sending..."
-		fetch('https://formspree.io/f/xvolgyjk', {
+		fetch('https://formspree.io/f/xpzbqqaa', {
 			method: 'POST',
 			body: JSON.stringify({
 				name,
